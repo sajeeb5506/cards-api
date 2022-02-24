@@ -36,7 +36,7 @@ const displayCard = (cards)=>{
 
  for( const card of cards){
    const div = document.createElement('div');
-   div.classList.add('col-lg-3');
+   div.classList.add('col-lg-4');
   
    div.classList.add('g-5');
    
