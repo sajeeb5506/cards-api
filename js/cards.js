@@ -37,7 +37,9 @@ const displayCard = (cards)=>{
  for( const card of cards){
    const div = document.createElement('div');
    div.classList.add('col-lg-3');
-   div.classList.add('mb-5');
+  
+   div.classList.add('g-5');
+   
    div.innerHTML=`
        <div class="card" style="width: 18rem;">
           <img src="${card.image}" class="card-img-top" alt="...">
