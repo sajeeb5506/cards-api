@@ -19,6 +19,12 @@ const serchButton= ()=> {
         input.value="";
         main.innerHTML="";
     }
+    else if (inputValue > 52){
+
+        error.innerText='please enter number less than 53 !';
+        input.value="";
+        main.innerHTML="";
+    }
    else{
      main.innerHTML="";
      fetch(`https://deckofcardsapi.com/api/deck/new/draw/?count=${inputValue}`)
